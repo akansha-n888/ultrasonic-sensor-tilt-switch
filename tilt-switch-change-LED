@@ -1,0 +1,21 @@
+int inPin = 2;                              //input pin (tilting sensor)
+int reading;                                //current reading from the input pin (tilting sensor)    
+int RedLedPin = 13;             //Red LED output pin
+
+void setup(){
+  pinMode (inPin, INPUT);                   //This will set inPin as INPUT
+  pinMode (RedLedPin, OUTPUT); //This will set RedLedPin as OUTPUT
+}
+
+void loop () {
+  reading = digitalRead(inPin);      //read the output from the inPin(tilt sensor)
+  if (reading == 1) {                               //If the reading is 1 or True it will process the codes under it
+    digitalWrite(RedLedPin, HIGH);   // if the tilt sensor is tilted, turn the red LED ON  
+   
+  } else {
+    digitalWrite(RedLedPin, LOW);    //Turns off LED if no there is no tilt
+
+  }
+  delay(35);   // pause 50 milliseconds between readings
+}
+ 
