@@ -17,11 +17,13 @@ The purpose of this project is to explore the contents in the ELEGOO UNO Starter
 * ArduinoIDE- version 1.8.13
 
 ## Circuit Setup
-![TinkerCad](ultrasonic.PNG =250x250)
-Ultrasonic Sensor Circuit that reads Distance
+![TinkerCad](ultrasonic.PNG)
+
+>Ultrasonic Sensor Circuit that reads Distance
 
 ![TinkerCad](tilt.PNG)
-Tilt Switch that Turns On and Off LED
+
+>Tilt Switch that Turns On and Off LED
 
 ## Status
 Project is: _finished_
