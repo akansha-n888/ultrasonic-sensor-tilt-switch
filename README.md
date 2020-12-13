@@ -17,7 +17,7 @@ The purpose of this project is to explore the contents in the ELEGOO UNO Starter
 * ArduinoIDE- version 1.8.13
 
 ## Circuit Setup
-![TinkerCad](Capture.PNG)
+![TinkerCad](tilt.PNG)
 
 ## Status
 Project is: _finished_
