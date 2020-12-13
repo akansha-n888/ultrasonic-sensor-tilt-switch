@@ -1,6 +1,6 @@
 # ultrasonic-sensor-tilt-switch
 > This repository contains 2 tasks. Task 1 uses an ultrasonic sensor to display distance readings via an LCD.
-> Task 2 implements a tilt swtich to turn an LED on and off.
+> Task 2 implements a tilt swtich to turn an LED on and off. When the tilt switch is on, the LED turns on. When the tilt switch is off, the LED is off.
 
 
 ## Table of contents
